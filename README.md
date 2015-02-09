@@ -33,32 +33,49 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 
 ## Syllabus
 
-1. Introduction:
-	* computer arts
-	* generative art
-	* generative design
 
-2. 2D Drawing Basics
-	* point
-		* cartesian coordinates
-		* ofCircle(), ofNoFill(), ofFill()
-	* line
-		* ofLine()
-		* ofSetLineWidth()
-	* plane
-		* ofRect()
-		* ofSetCircleResolution()
-		* ofBeginShape(), ofEndShape(true/false), ofVertex()
+### 1. Introduction:
+* computer arts
+* generative art
+* generative design
+
+
+### 2. Point, Line, Plane
+
+* point
+	* cartesian coordinates
+	* ofCircle(), ofNoFill(), ofFill()
+* line
+	* ofLine()
+	* ofSetLineWidth()
+* plane
+	* ofRect()
+	* ofSetCircleResolution()
+	* ofBeginShape(), ofEndShape(true/false), ofVertex()
+
 	
-3. Color
-	* ofSetColor(gray, a), ofSetColor(r, g, b, a)
-	* ofSetHexColor(), ofColor::presets
-	* ofColor, setHsb()
+### 3. Color
 
-4. Typography
-	* *data* folder, ofTrueTypeFont, loadFont(), drawString()
-	* \n
-	* setLetterSpacing(), setLineHeight(), setSpaceSize()
+* ofSetColor(gray, a), ofSetColor(r, g, b, a), ofSetHexColor()
+* ofColor::presets, *colorsExtended* example
+* ofColor, setHsb()
+
+
+### 4. Typography
+
+* *data* folder, ofTrueTypeFont, loadFont(), drawString()
+* \n
+* setLetterSpacing(), setLineHeight(), setSpaceSize()
+
+	
+### 5. Image
+
+* raster
+	* jpg, ofImage, loadImage(), resize()
+	* png, ofSetColor()
+* vector
+	* addons, ofxSvg, #include "ofxSvg.h"
+	* ofPushMatrix(), ofPopMatrix(), ofTranslate()
 
 5. The New Basics of Graphic Design
 	* Rhythm
