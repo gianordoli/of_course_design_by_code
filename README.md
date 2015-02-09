@@ -96,6 +96,7 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 * for(){ for(){} }
 
 #### D) Modularity
+* ofPath, arc()
 * if(), %
 * ofRotate()
 
