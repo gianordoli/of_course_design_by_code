@@ -2,37 +2,46 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    letterSpacing = 1;
-    lineHeight = 1;
-    spaceSize = 1;
-    
-//	ofTrueTypeFont::setGlobalDpi(72);
-    titlingBold.setLetterSpacing(letterSpacing);
-    titlingBold.setLineHeight(lineHeight);
-    titlingBold.setSpaceSize(spaceSize);
-    titlingBold.loadFont("TitliGotFBComBol", 120);
-    
-    titlingLight.setLetterSpacing(letterSpacing*2);
-    titlingLight.setLineHeight(lineHeight*2);
-    titlingLight.setSpaceSize(spaceSize*2);
-    titlingLight.loadFont("TitliGotFBConLig", 60);
 
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofBackground(0);
+    ofBackground(ofColor::tomato);
     
-    ofSetColor(255);
-    titlingBold.drawString("Hello,\nWorld", 20,  ofGetHeight()*0.33);
-
-    string text = "HELLO, WORLD";
-    ofRectangle bounds = titlingLight.getStringBoundingBox(text, 0, 0);
-    titlingLight.drawString(text, ofGetWidth()*0.5 - bounds.width/2,  ofGetHeight()*0.66);
+    // 3
+//    ofSeedRandom(20);
+    
+    // 1.
+    for(int i = 0; i < 1000; i++){
+        float x = ofRandom(ofGetWidth());
+        float y = ofRandom(ofGetHeight());
+        ofCircle(x, y, 10);
+    }
+    
+    // 2.
+//    for(int i = 0; i < mouseX; i++){
+//        float x = ofRandom(ofGetWidth());
+//        float y = ofRandom(ofGetHeight());
+//        float r = ofMap(mouseY, 0, ofGetHeight(), 2, 100);
+//        ofCircle(x, y, r);
+//    }
+    
+    // 3.
+//    for(int i = 0; i < mouseX; i++){
+//        float x1 = ofRandom(ofGetWidth());
+//        float y1 = ofRandom(ofGetHeight());
+//        float r = ofMap(mouseY, 0, ofGetHeight(), 2, 100);
+//        float x2 = x1 + ofRandom(-r, r);
+//        float y2 = y1 + ofRandom(-r, r);
+//        ofLine(x1, y1, x2, y2);
+//    }
+    
 }
 
 //--------------------------------------------------------------

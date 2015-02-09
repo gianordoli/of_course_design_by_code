@@ -40,7 +40,9 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 * generative design
 
 
-### 2. Point, Line, Plane
+### 2. Basic Design Elements
+
+#### A) Point, Line, Plane
 
 * point
 	* cartesian coordinates
@@ -54,66 +56,47 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 	* ofBeginShape(), ofEndShape(true/false), ofVertex()
 
 	
-### 3. Color
+#### B) Color
 
 * ofSetColor(gray, a), ofSetColor(r, g, b, a), ofSetHexColor()
 * ofColor::presets, *colorsExtended* example
 * ofColor, setHsb()
 
 
-### 4. Typography
+#### C) Typography
 
 * *data* folder, ofTrueTypeFont, loadFont(), drawString()
 * \n
 * setLetterSpacing(), setLineHeight(), setSpaceSize()
+* ofRectangle, getStringBoundingBox()
 
 	
-### 5. Image
+#### D) Image
 
 * raster
 	* jpg, ofImage, loadImage(), resize()
 	* png, ofSetColor()
 * vector
 	* addons, ofxSvg, #include "ofxSvg.h"
-	* ofPushMatrix(), ofPopMatrix(), ofTranslate()
 
-5. The New Basics of Graphic Design
-	* Rhythm
-	* Scale
-	* Texture
-	* Transparency
-	* Modularity
-	* Pattern
-	
-	
-	
-## Example 2: Mouse
- * Different ways of using mouse coordinates
-    * mouseX and mouseY variables
-    * passing coords from mouse event to global variables
-        * mouseDragged()
-        * mouseReleased()
- 
- 
- * Playing with ofSetBackgroundAuto();
- 
- 
-## Example 3: Animation
- * Using global variables to make simple animations
- * Adding conditionals
- * Introducing app properties:
-    * ofSetWindowTitle(), ofSetWindowShape()
-    * ofEnableAntiAliasing(), ofSetCircleResolution()
-    * ofGetWidth(), ofGetHeight()
-    
-    
-## Example 4: Loop
- * Using loops and mouse coordinates to draw an interactive pattern
-    a) Simple loop
-    b) Nested loop
- 
- 
- * More color:
-    * ofColor
-    * setHsb()
-    * ofBackgroundGradient()	
+
+### 3. The New Basics of Graphic Design
+
+#### A) Scale
+* mouseX, mouseY
+* ofPushMatrix(), ofPopMatrix(), ofTranslate()
+* ofMap()
+* ofScale()
+
+#### B) Texture
+* for(){}
+* ofSeedRandom()
+
+#### C) Pattern
+* for(){ for(){} }
+
+#### D) Modularity
+
+#### E) Rhythm
+
+#### F) Transparency
