@@ -101,5 +101,6 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 * ofRotate()
 
 #### E) Rhythm
+* ofGetFrameNum()
 
 #### F) Transparency
