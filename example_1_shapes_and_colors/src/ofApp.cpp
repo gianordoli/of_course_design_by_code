@@ -1,24 +1,11 @@
-#include "ofApp.h"
 /*-------------------------------------------------------------
- [ofCourse] Design by Code
- 
- 2. 2D Drawing Basics
-	* point
-         * cartesian coordinates
-         * ofCircle(), ofNoFill(), ofFill()
-	* line
-         * ofLine()
-         * ofSetLineWidth()
-	* plane
-         * ofRect()
-         * ofSetCircleResolution()
-         * ofBeginShape(), ofEndShape(true/false), ofVertex()
-	
- 3. Color
-	* ofSetColor(gray, a), ofSetColor(r, g, b, a)
-	* ofSetHexColor(), ofColor::presets
-	* ofColor, setHsb()
+ [ofCourse][Spring 2015] Design by Code
+ Gabriel Gianordoli
+ gianordoli.com
+ @gianordoli
  -------------------------------------------------------------*/
+
+#include "ofApp.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){

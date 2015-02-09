@@ -1,3 +1,13 @@
+/*-------------------------------------------------------------
+ [ofCourse][Spring 2015] Design by Code
+ Gabriel Gianordoli
+ gianordoli.com
+ @gianordoli
+ 
+ This example is borrowing some code from
+ examples/graphics/blendingExample
+ -------------------------------------------------------------*/
+
 #include "ofApp.h"
 
 //--------------------------------------------------------------

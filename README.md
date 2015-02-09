@@ -82,26 +82,38 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 
 ### 3. The New Basics of Graphic Design
 
+![Scale](_img/01_scale.png)
+
 #### A) Scale
 * mouseX, mouseY
 * ofPushMatrix(), ofPopMatrix(), ofTranslate()
 * ofMap()
 * ofScale()
 
+![Texture](_img/02_texture.png)
+
 #### B) Texture
 * for(){}
 * ofSeedRandom()
 
+![Pattern](_img/03_pattern.png)
+
 #### C) Pattern
 * for(){ for(){} }
+
+![Modularity](_img/04_modularity.png)
 
 #### D) Modularity
 * ofPath, arc()
 * if(), %
 * ofRotate()
 
+![Rhythm](_img/05_rhythm.png)
+
 #### E) Rhythm
 * ofGetFrameNum()
+
+![Transparency](_img/06_transparency.png)
 
 #### F) Transparency
 * ofEnableAlphaBlending(), ofDisableAlphaBlending()

@@ -1,3 +1,10 @@
+/*-------------------------------------------------------------
+ [ofCourse][Spring 2015] Design by Code
+ Gabriel Gianordoli
+ gianordoli.com
+ @gianordoli
+ -------------------------------------------------------------*/
+
 #include "ofApp.h"
 
 //--------------------------------------------------------------
@@ -14,16 +21,16 @@ void ofApp::update(){
 void ofApp::draw(){
     ofBackground(ofColor::yellow);
 
-//    // 1.
-//    float spacing = 20.0;
-//    ofSetColor(150, 0, 200);
-//
-//    for(float x = 0; x < ofGetWidth(); x += spacing){
-//        float y = ofGetHeight() * 0.5;
-//        float width = 10;
-//        float height = 10;
-//        ofRect(x, y, width, height);
-//    }
+    // 1.
+    float spacing = 20.0;
+    ofSetColor(150, 0, 200);
+
+    for(float x = 0; x < ofGetWidth(); x += spacing){
+        float y = ofGetHeight() * 0.5;
+        float width = 10;
+        float height = 10;
+        ofRect(x, y, width, height);
+    }
     
 //    // 2.
 //    float spacing = 20.0;
@@ -50,21 +57,21 @@ void ofApp::draw(){
 //        }
 //    }
     
-    // 4.
-    float spacingX = ofMap(mouseX, 0, ofGetWidth(), 10.0, 40.0);
-    float spacingY = ofMap(mouseY, 0, ofGetHeight(), 10.0, 40.0);
-    
-    for(float x = 0; x < ofGetWidth(); x += spacingX){
-        for(float y = 0; y < ofGetHeight(); y += spacingY){
-            float width = 10;
-            float height = 10;
-            ofColor myColor = ofColor(ofMap(x, 0, ofGetWidth(), 0, 255),
-                                      0,
-                                      ofMap(y, 0, ofGetHeight(), 0, 255));
-            ofSetColor(myColor);
-            ofRect(x, y, width, height);
-        }
-    }
+//    // 4.
+//    float spacingX = ofMap(mouseX, 0, ofGetWidth(), 10.0, 40.0);
+//    float spacingY = ofMap(mouseY, 0, ofGetHeight(), 10.0, 40.0);
+//    
+//    for(float x = 0; x < ofGetWidth(); x += spacingX){
+//        for(float y = 0; y < ofGetHeight(); y += spacingY){
+//            float width = 10;
+//            float height = 10;
+//            ofColor myColor = ofColor(ofMap(x, 0, ofGetWidth(), 0, 255),
+//                                      0,
+//                                      ofMap(y, 0, ofGetHeight(), 0, 255));
+//            ofSetColor(myColor);
+//            ofRect(x, y, width, height);
+//        }
+//    }
     
     
 }
