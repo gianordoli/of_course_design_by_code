@@ -4,24 +4,25 @@
  
  2. 2D Drawing Basics
 	* point
- * cartesian coordinates
- * ofCircle(), ofNoFill(), ofFill()
+         * cartesian coordinates
+         * ofCircle(), ofNoFill(), ofFill()
 	* line
- * ofLine()
- * ofSetLineWidth()
+         * ofLine()
+         * ofSetLineWidth()
 	* plane
- * ofRect(), ofBeginShape(), ofEndShape(true/false), ofVertex()
- 
+         * ofRect()
+         * ofSetCircleResolution()
+         * ofBeginShape(), ofEndShape(true/false), ofVertex()
+	
  3. Color
-	* Color
- * ofSetColor(gray, a), ofSetColor(r, g, b, a)
- * ofSetHexColor(), ofColor::presets
- * ofColor, setHsb()
+	* ofSetColor(gray, a), ofSetColor(r, g, b, a)
+	* ofSetHexColor(), ofColor::presets
+	* ofColor, setHsb()
  -------------------------------------------------------------*/
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    
+    ofSetCircleResolution(50);
 }
 
 //--------------------------------------------------------------

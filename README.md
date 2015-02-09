@@ -46,7 +46,9 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 		* ofLine()
 		* ofSetLineWidth()
 	* plane
-		* ofRect(), ofBeginShape(), ofEndShape(true/false), ofVertex()
+		* ofRect()
+		* ofSetCircleResolution()
+		* ofBeginShape(), ofEndShape(true/false), ofVertex()
 	
 3. Color
 	* ofSetColor(gray, a), ofSetColor(r, g, b, a)
@@ -54,7 +56,9 @@ Students will utilize *openFrameworks*, a creative coding toolkit that makes it 
 	* ofColor, setHsb()
 
 4. Typography
-	* loadFont(), setLetterSpacing(), drawString()
+	* *data* folder, ofTrueTypeFont, loadFont(), drawString()
+	* \n
+	* setLetterSpacing(), setLineHeight(), setSpaceSize()
 
 5. The New Basics of Graphic Design
 	* Rhythm
